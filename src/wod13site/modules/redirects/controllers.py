@@ -1,8 +1,8 @@
-from beesite import util
 from flask import abort
 from flask import Blueprint
 from flask import redirect
 from flask import request
+from wod13site import util
 
 bp_redirects = Blueprint("redirects", __name__)
 
@@ -26,14 +26,14 @@ def page_rules():
 
 @bp_redirects.route("/forum")
 def page_forum():
-    return redirect("https://forums.beestation13.com")
+    return redirect("https://forums.wod13.org")
 
 
 @bp_redirects.route("/maps")
 def page_map_viewer():
-    return redirect("https://webmap.affectedarc07.co.uk/")
+    return redirect("https://webmap.affectedarc07.co.uk/maps/wod13/sanfran/")
 
 
 @bp_redirects.route("/uptime")
 def page_uptime():
-    return redirect("https://status.beestation13.com")
+    return redirect("https://status.wod13.")

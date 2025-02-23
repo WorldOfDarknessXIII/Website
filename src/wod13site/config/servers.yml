@@ -1,0 +1,8 @@
+- id: 'server'
+  name: 'San Francisco'
+  nickname: 'Server'
+  host: 'server.wod13.org'
+  port: 7878
+  open: true
+  color: '0, 0, 150'
+  rules_url: 'http://wiki.wod13.org/wiki/Rules'
