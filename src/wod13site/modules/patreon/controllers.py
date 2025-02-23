@@ -1,8 +1,8 @@
-from wod13site import cfg
 from flask import Blueprint
 from flask import redirect
 from flask import render_template
 from flask import request
+from wod13site import cfg
 
 bp_patreon = Blueprint("patreon", __name__)
 

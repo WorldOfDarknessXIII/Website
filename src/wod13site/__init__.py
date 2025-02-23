@@ -1,8 +1,8 @@
 from os import environ
 
-from wod13site import cfg
 from flask import Flask
 from flask_cors import CORS
+from wod13site import cfg
 
 app = Flask(__name__, static_url_path=cfg.WEBSITE["static-url-path"])
 

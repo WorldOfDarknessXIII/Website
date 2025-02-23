@@ -1,8 +1,8 @@
-from wod13site import util
 from flask import abort
 from flask import Blueprint
 from flask import redirect
 from flask import request
+from wod13site import util
 
 bp_redirects = Blueprint("redirects", __name__)
 
