@@ -22,7 +22,7 @@ RUN apk add --no-cache mariadb-dev \
 RUN poetry install --without=dev --no-root --no-interaction --no-ansi \
     && apk del --purge build-dependencies
 
-COPY server-conf/beesite_uwsgi.ini /etc/uwsgi/uwsgi.ini
+COPY server-conf/wod13site_uwsgi.ini /etc/uwsgi/uwsgi.ini
 
 WORKDIR /app
 COPY /src /app
