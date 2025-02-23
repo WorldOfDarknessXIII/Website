@@ -1,6 +1,6 @@
 import re
 
-from beesite import cfg
+from wod13site import cfg
 
 
 def to_ckey(byondkey):

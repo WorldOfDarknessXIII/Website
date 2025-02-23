@@ -1,4 +1,4 @@
-from beesite import cfg
+from wod13site import cfg
 from flask import Blueprint
 from flask import redirect
 from flask import render_template

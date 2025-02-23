@@ -1,17 +1,17 @@
 static-url-path: "/static"
 
-description: "BeeStation is a newbie friendly Space Station 13 server. The server was created in march 2018. We like to put a fun touch to the rounds to make a better experience."
+description: "Insert description here."
 
-api-base-url: "https://api.beestation13.com/"
+api-base-url: "https://api.wod13.org/"
 
 links:
-  discord: "https://discord.gg/Y7RTtkK"
-  github: "https://github.com/BeeStation/BeeStation-Hornet"
+  discord: "https://discord.gg/Vb8kubKWgK"
+  github: "https://github.com/WorldOfDarknessXIII/WOD13"
   subreddit: "https://www.reddit.com/r/SS13"
-  patreon: "https://www.patreon.com/beestation13"
+  patreon: "https://www.patreon.com/WorldofDarknessXIII"
   ss13-website: "https://spacestation13.com/"
-  wiki: "https://wiki.beestation13.com"
-  starter-guide: "https://wiki.beestation13.com/view/Starter_guide"
+  wiki: "https://wiki.wod13.org/wiki/Main_Page"
+  starter-guide: "https://wiki.wod13.org/wiki/New_Players"
 
 patreon:
   client-id: "test"
