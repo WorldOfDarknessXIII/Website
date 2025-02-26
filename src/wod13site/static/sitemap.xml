@@ -30,7 +30,12 @@
 	<priority>0.60</priority>
 </url>
 <url>
-	<loc>http://wiki.wod13.org/wiki/Rules</loc> <lastmod>2020-03-30T02:29:08+00:00</lastmod> <priority>0.64</priority> </url> <url> <loc>https://wod13.org/bans</loc>
+	<loc>http://wiki.wod13.org/wiki/Rules</loc>
+    <lastmod>2020-03-30T02:29:08+00:00</lastmod>
+    <priority>0.64</priority>
+</url>
+<url>
+    <loc>https://wod13.org/bans</loc>
  	<lastmod>2020-03-30T02:29:08+00:00</lastmod>
 	<priority>0.70</priority>
 </url>
