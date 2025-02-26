@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta property="og:type"  content="website" />
-    <meta property="og:image" content="http://beestation13.com/static/img/logo.png" />
+    <meta property="og:image" content="http://wod13.org/static/img/logo.png" />
     <meta property="og:url" content="{{ request.url }}" />
     <meta name="description"  content="{{ cfg.WEBSITE["description"] }}"/>
     <meta property="og:description" content="{{ cfg.WEBSITE["description"] }}" />
@@ -24,29 +24,31 @@
 
     <link   rel="stylesheet" href="/static/css/main.css">
 
-    <title>BeeStation - {% block title %}{% endblock %}</title>
-    <style>#ac-{% block active %}{% endblock %} {border-bottom: solid var(--bee-yellow) var(--bee-border-thick) !important;}</style>
+    <title>WOD13 - {% block title %}{% endblock %}</title>
   </head>
 
 
   <body>
   <div id="container">
     <div id="nav">
-      <a href="/" id="ac-home" class="nav-logo"><img id="nav-logo-img" src="/static/img/logo.svg" alt="BeeStation"> <span id="nav-logo-text">BeeStation</span></a>
-      <div id="nav-spacer"></div>
-      <a href = "/forum"   id="ac-forum"   class="nav-item">Forum</a>
-      <a href = "/rules"   id="ac-rules"   class="nav-item">Rules</a>
-      <a href = "/stats"   id="ac-stats"   class="nav-item">Stats</a>
-      <a href = "/uptime"  id="ac-uptime"  class="nav-item">Uptime</a>
-      <a href = "/bans"    id="ac-bans"    class="nav-item">Bans</a>
-      <a href = "/maps"     id="ac-maps"    class="nav-item">Maps</a>
-      <a href = "/library" id="ac-library" class="nav-item">Library</a>
+      <a href="/" id="ac-home" class="nav-logo"><img id="nav-logo-img" src="/static/img/logo.png" alt="WOD13"> <span id="nav-logo-text"></span></a>
+      <div id="nav-spacer">
+        <p style="font-size: small;">“These violent delights have violent ends
+            And in their triumph die, like fire and powder,
+            Which as they kiss consume. The sweetest honey
+            Is loathsome in his own deliciousness
+            And in the taste confounds the appetite.
+            Therefore love moderately; long love doth so;
+            Too swift arrives as tardy as too slow.”
+            ― William Shakespeare, Romeo and Juliet</p>
+      </div>
     </div>
 
     <div id="content">
       {% block content %}{% endblock %}
     </div>
   </div>
-  <footer>BeeStation website made with &lt;3 by <a href="https://github.com/qwertyquerty" style="color:#cccccc;">qwerty</a></footer>
+
+  <footer>WOD13 website made with &lt;3 originally by <a href="https://github.com/qwertyquerty" style="color:#cccccc;">qwerty</a> and then destroyed by <a href="https://github.com/XeonMations" style="color:#cccccc;">Xeon!</a></footer>
   </body>
 </html>
